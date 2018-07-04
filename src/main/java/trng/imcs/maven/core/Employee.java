@@ -11,6 +11,6 @@ public class Employee {
 	private int empNo;
 	private String name;
 	private float salary;
-	private Date doj;
-	
+	private Date dateOfJoin;
+	private String address;
 }
