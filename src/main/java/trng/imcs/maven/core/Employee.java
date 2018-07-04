@@ -11,6 +11,16 @@ public class Employee {
 	private int empNo;
 	private String name;
 	private float salary;
-	private Date doj;
+	private int deptNo;
+	private Date doJoin;
+	public Employee(int empNo, String name, float salary, Date doJoin) {
+		super();
+		this.empNo = empNo;
+		this.name = name;
+		this.salary = salary;
+		this.doJoin = doJoin;
+	}
+	
+	
 	
 }
